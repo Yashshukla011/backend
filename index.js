@@ -1,7 +1,7 @@
 const express = require('express')
 require('dotenv').config()
 const app = express()
-const port = 5000
+const port = 4000
 app.get('/yash', (req, res) => {
 const arr = {
     Teacher: "Homework kyun nahi kiya?",
